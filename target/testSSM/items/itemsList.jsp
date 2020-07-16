@@ -13,8 +13,8 @@
 	<script src="${pageContext.request.contextPath}/js/items.js"></script>
 </head>
 <body>
-<div class="container">
-	<div class="row" style="margin-top: 100px">
+<div style="padding: 0 20px">
+	<div class="row">
 		<div class="col-md-6 col-lg-6">
 			<div class="input-group">
                     <span class="input-group-btn">
@@ -28,7 +28,7 @@
 			<input class="btn btn-danger" type="button" value="删除所有" onclick="deleteAll()">
 		</div>
 	</div>
-	<div class="row" style="margin-top: 50px">
+	<div class="row" style="margin-top: 20px">
 		<table class="table table-bordered">
 			<tr align="center">
 				<th style="text-align:center"><input type="checkbox" class="choose_all"></th>

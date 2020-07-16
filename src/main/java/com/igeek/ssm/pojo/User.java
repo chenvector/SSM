@@ -1,5 +1,7 @@
 package com.igeek.ssm.pojo;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class User {
@@ -7,11 +9,22 @@ public class User {
 
     private String username;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
 
     private String sex;
 
     private String address;
+
+    private String pic;
+
+    public String getPic() {
+        return pic;
+    }
+
+    public void setPic(String pic) {
+        this.pic = pic;
+    }
 
     public Integer getId() {
         return id;
